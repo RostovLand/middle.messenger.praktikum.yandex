@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="signin.scss" />
+</head>
+<body>
+<main>
+	<div class="page_basic_center">
+		<div class="signin_form">
+			<div class="container">
+				<div class="box_line_1"> 
+					<h1>Регистрация</h1>
+				</div>
+				<div class="box_line_2">
+					<div class="parent">
+						<div class="left">
+							<p style=''>Почта</p>
+							<p style=''>Логин</p>
+							<p style=''>Имя</p>
+							<p style=''>Фамилия</p>
+							<p style=''>Телефон</p>
+							<p style=''>Пароль</p>
+							<p style=''>Повторите пароль</p>
+							
+						</div>
+						<div class="right"> 
+							<form>
+							<!-- Регистрация (с формой, имена полей: first_name, second_name, login, email, password, phone).-->
+							<p style=''><label><input type="text" name="email" value="" placeholder="почта"></label></p>
+							<p style=''><label><input type="text" name="login" value="" placeholder="логин"></label></p>
+							<p style=''><label><input type="text" name="first_name" value="" placeholder="имя"></label></p>
+							<p style=''><label><input type="text" name="second_name" value="" placeholder="фамилия"></label></p>
+							<p style=''><label><input type="text" name="phone" value="" placeholder="номер телефона"></label></p>
+							<p style=''><label><input type="text" name="password" value="" placeholder="пароль"></label></p>
+							<p style=''><label><input type="text" name="repitpassword" value="" placeholder="повтор пароля"></label></p>
+							</form>
+						
+						
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="box_line_3"> 	
+					<div class="parent">
+							{{>button/signin.btn}}
+					</div>
+				<span><a href="../auth/login.hbs">Войти</a></span>	
+				</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+</body>
+</html>

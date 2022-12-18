@@ -1,0 +1,31 @@
+<div class="block_layout_right_second_panel" style="left: 23%;">
+	<!-- верх -->
+	<div class='top_line fixed'>
+		 {{> top.line}}	
+	</div>
+	<!--центр -->
+	<div class="content_in_block">
+		<div style="margin-top: 70px;margin-bottom:70px;">
+			<ul class="message">
+				{{> chat/message}}{{> chat/message}}
+				{{> chat/message}}{{> chat/message}}
+				{{> chat/message}}{{> chat/message}}
+			</ul>
+		</div>
+	</div>
+	<!-- футер -->
+	<div class='bottom_line fixed'>
+		<div class="container">
+			<div class="parent">
+				<div class="left">
+					<form>
+						<input type="text" name="message" placeholder="" value="">
+					</form>
+				</div>
+				<div class="right"> 
+					{{>button/send.message.btn}}
+				</div>
+			</div>
+		</div> 
+	</div>
+</div>

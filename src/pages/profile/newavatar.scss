@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{}
+body{font-family: Inter, Arial, Helvetica, sans-serif; width:100%;-max-width:1250px;-min-width:1000px;margin:0 auto;
+color: #000;
+} 
+.page_basic_center{
+	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.new_avatar_form{
+	margin-top: 20px;
+	padding:20px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+	border-radius: 12px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+	position:relative;
+}
+.new_avatar_form .container {
+	/*line-height: 1.3em;*/
+	width: 100%;
+	display: grid;
+	gap: 10px;
+}
+.box_line_1, .box_line_2 {
+	display: grid;
+	place-items: center;
+}
+.box_line_3, {
+	display: grid;
+	place-items: left;
+}
+.box_line_3 .parent {
+	border-top:1px solid #ccc;
+  	text-align: left;
+  	align-items: left;
+  	justify-content: left;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	width: 40%;
+}
+.box_line_3 .parent span{display: block;line-height: 1.7em;}
+.box_line_3 .parent span a{text-decoration: none;}
+.box_line_3 .parent span a:hover{	text-decoration: underline;}
+.box_line_2 .parent {
+	display: table;
+	-display:inline-block;
+	width: 100%;
+	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+}
+.box_line_2 .parent .left p {border-bottom:1px dashed #ccc;}
+.parent .left {
+   	text-align: left;
+  	/*font-style: normal;
+	font-weight: 500;
+	font-size: 13px;*/
+	display: table-cell;
+	width: 300px;
+}
+.box_line_2 .parent .right p{border-bottom:1px solid #ccc;}
+.box_line_2 .parent .right {
+    width: 49%;
+	display: table-cell;
+	text-align: left;
+	
+  	/*text-align: right;
+  	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;*/	
+}
+
+/*----------------------------------------------------*/
+.avatar  {padding: 0px;text-decoration: none; vertical-align: top;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.avatar  a:hover{ text-decoration: none;}
+.avatar span {display: block;float: left;height: 75px;width: 100px;-height: 36px;-width: 36px;
+	margin: 9px 0px 0px;
+	overflow: hidden;padding: 0px;position: relative;}
+.avatar .img {width: 100px;display: block;}
+.avatar .circle {border: 36px solid #fff/*#FAFAFA*/;box-shadow: inset 0px 0px 4px #333;
+	border-radius: 100%;display: block;-height: 36px;
+	left: -36px;-left: -50px;margin: 0px;padding: 0px;
+	position: absolute;-top: -36px;top: -36px;-width: 36px;height: 75px;width: 75px;}
+
+
+	.btn{
+		border-radius: 8px;
+		text-align: center;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 13px;
+		padding: 8px 16px;
+		color: #FFFFFF;
+		background: #3369F3;
+		border: 0;
+		width: 280px;
+		height: 37px;
+	}
+	.btn:hover{
+		background: #999;
+		color: #000;
+	}	
+	.btn3{
+		
+		outline:none;
+		border: none;
+	
+	}
+	

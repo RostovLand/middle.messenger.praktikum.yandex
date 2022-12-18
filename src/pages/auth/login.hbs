@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="login.scss" />
+</head>
+<body>
+<main>
+	<div class="page_basic_center">
+		<div class="login_form">
+			<div class="container">
+				<div class="box_line_1"> 
+					<h1>Вход</h1>
+				</div>
+				<div class="box_line_2">
+					<div class="parent">
+						<div class="left">
+							<p style=''>Логин</p>
+							<p style=''>Пароль</p>
+						
+							
+						</div>
+						<div class="right"> 
+							<form id="loginform">
+							<p style=''><label><input type="text" name="username" placeholder="логин" value=""></label></p>
+							<p style=''><label><input type="text" name="password" placeholder="пароль" value=""></label></p>
+						
+						
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="box_line_3"> 	
+					<div class="parent">
+							
+							{{>button/login.btn}}
+					</div>
+				<span><a href="../auth/signin.hbs">Нет аккаунта?</a></span>	
+				</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+</body>
+</html>
