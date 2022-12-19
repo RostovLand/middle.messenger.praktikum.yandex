@@ -4,9 +4,9 @@
   "description": "Proba_1",
   "scripts": {
     "dev": "parcel src/pages/index.hbs --no-cache --open",
-    "build": "parcel build src/pages/index.hbs && node server.js",
+    "build": "parcel build src/pages/index.hbs",
     "test": "echo \"Error: ОШИБК\" && exit 1",
-    "start": "node server.js",
+    "start": "parcel build src/pages/index.hbs && node server.js",
     "serve": "serve -s dist"
   },
   "author": "",
