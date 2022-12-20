@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title></title>
@@ -13,33 +13,14 @@
 					<a title="Загрузить новый аватар" href="newavatar.hbs">
 					<span>
 						<img class="img" src="/images/1.jpg" border="0" width="100" height="75">
-						<i class="circle"/></i>
+						<div class="circle"/></div>
 					</span></a>
 				</div>
-				<h1>Профиль</h1>
+				<p>Профиль</p>
 			</div>
 			
 			<div class="box_line_2">
-				<label>
-          			<span>Почта</span>
-          			<input type="text" name="email" type="email" value="@" disabled>
-        		</label>
-				<label>
-					<span>Логин</span>
-					<input type="text" name="login" value="логин" disabled>
-				</label>
-				<label>
-					<span>Имя</span>
-					<input type="text" name="first_name" value="имя" disabled>
-				</label>
-				<label>
-					<span>Фамилия</span>
-					<input type="text" name="second_name" value="фамилия" disabled>
-				</label>
-				<label>
-					<span>Телефон</span>
-					<input type="text" name="phone" value="номер телефона" disabled>
-				</label>
+				{{>persona/data.profile}}
 			</div>
 			<div class="box_line_3"> 	
 				<label><a href="edit.profile.hbs">Изменить данные</a></label>
@@ -50,3 +31,4 @@
 	</div>
 </body>
 </html>
+

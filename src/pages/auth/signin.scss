@@ -56,7 +56,7 @@ body{font-family: Inter; width:100%;-max-width:1250px;-min-width:1000px;margin:0
   	align-items: center;
   	justify-content: center;
 }
-.box_line_2 .parent .left p {border-bottom:1px dashed #ccc;}
+.box_line_2 .parent .left div{border-bottom:1px dashed #ccc;}
 .parent .left {
    	text-align: left;
   	/*font-style: normal;
@@ -64,15 +64,17 @@ body{font-family: Inter; width:100%;-max-width:1250px;-min-width:1000px;margin:0
 	font-size: 13px;*/
 	display: table-cell;
 	width: 300px;
+	line-height: 2em;
 }
-.box_line_2 .parent .right p{border-bottom:1px solid #ccc;}
+.box_line_2 .parent .right div{border-bottom:1px solid #ccc;}
 .box_line_2 .parent .right {
     width: 49%;
 	display: table-cell; 
   	/*text-align: right;
   	font-style: normal;
 	font-weight: 500;
-	font-size: 13px;*/	
+	font-size: 13px;*/
+	line-height: 2em;
 }
 .box_line_2 .parent input{
 	outline:none;

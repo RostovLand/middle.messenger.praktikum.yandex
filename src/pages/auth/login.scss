@@ -58,16 +58,18 @@ body{font-family: Inter; width:100%;-max-width:1250px;-min-width:1000px;margin:0
   	align-items: center;
   	justify-content: center;
 }
-.box_line_2 .parent .left p {border-bottom:1px dashed #ccc;}
+.box_line_2 .parent .left div {border-bottom:1px dashed #ccc;}
 .parent .left {
    	text-align: left;
   	display: table-cell;
 	width: 300px;
+	line-height: 1.7;
 }
-.box_line_2 .parent .right p{border-bottom:1px solid #ccc;}
+.box_line_2 .parent .right div{border-bottom:1px solid #ccc;}
 .box_line_2 .parent .right {
     width: 49%;
 	display: table-cell; 
+	line-height: 1.7;
 }
 
 .box_line_2 .parent input{

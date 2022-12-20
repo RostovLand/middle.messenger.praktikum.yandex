@@ -3,9 +3,15 @@ Sprint 1
 
 Запуск
 npm run dev
+//"dev": "parcel src/pages/index.hbs --no-cache --open",
 
 Сборка
-npm run build
+npm run start
+//"start": "parcel build src/pages/index.hbs && node server.js",
 
+   
 Ссылка на сайт
 https://dapper-eclair-2735d2.netlify.app/
+
+// Для netlify npm run build
+//"build": "parcel build src/pages/index.hbs"
