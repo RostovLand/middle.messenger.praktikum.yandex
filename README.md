@@ -16,7 +16,7 @@ npm run start
    
 Ссылка на сайт
 
-https://dapper-eclair-2735d2.netlify.app/
+https://soft-brigadeiros-7481c8.netlify.app
 
 // Для netlify npm run build
 
