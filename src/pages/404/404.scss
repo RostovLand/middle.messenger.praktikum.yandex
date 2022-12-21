@@ -1,24 +1,12 @@
-@font-face{
-    font-family: 'Inter';
-    src: url('../fonts/Inter.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-body{font-family: Inter; width:100%;-max-width:1250px;-min-width:1000px;margin:0 auto;
-	color: #000;
-	}   
-.page_basic_center{
-	margin: 0;
-  	padding: 0;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-}
+@import "src/pages/css/body.scss";
+@import "src/pages/css/font.scss";
+@import "src/pages/css/color.scss";
+@import "src/pages/css/page_basic_center.scss";
+//
 ._404_form{
 	margin-top: 20px;
 	padding:20px;
-	background: #FFFFFF;
+	background: $white;
 	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
 	border-radius: 12px;
   	display: flex;
