@@ -14,41 +14,37 @@
 					<p>Регистрация</p>
 				</div>
 				<div class="box_line_2">
-					<div class="parent">
-						<div class="left">
-							<div>Почта</div>
-							<div>Логин</div>
-							<div>Имя</div>
-							<div>Фамилия</div>
-							<div>Телефон</div>
-							<div>Пароль</div>
-							<div>Повторите пароль</div>
-							
-						</div>
-						<div class="right"> 
-							<form>
-							<!-- Регистрация (с формой, имена полей: first_name, second_name, login, email, password, phone).-->
-							<div><label><input type="text" name="email" value="" placeholder="почта"></label></div>
-							<div><label><input type="text" name="login" value="" placeholder="логин"></label></div>
-							<div><label><input type="text" name="first_name" value="" placeholder="имя"></label></div>
-							<div><label><input type="text" name="second_name" value="" placeholder="фамилия"></label></div>
-							<div><label><input type="text" name="phone" value="" placeholder="номер телефона"></label></div>
-							<div><label><input type="text" name="password" value="" placeholder="пароль"></label></div>
-							<div><label><input type="text" name="repitpassword" value="" placeholder="повтор пароля"></label></div>
-							</form>
-						
-						
-							</form>
-						</div>
-					</div>
+					<form>
+						<!-- Регистрация (с формой, имена полей: first_name, second_name, 
+						login, email, password, phone).-->
+						<label><span>Почта</span>
+							<input type="text" name="email" value="" placeholder="почта">
+						</label>
+						<label><span>Логин</span>
+							<input type="text" name="login" value="" placeholder="логин">
+						</label>
+						<label><span>Имя</span>
+							<input type="text" name="first_name" value="" placeholder="имя">
+						</label>
+						<label><span>Фамилия</span>
+							<input type="text" name="second_name" value="" placeholder="фамилия">
+						</label>
+						<label><span>Телефон</span>
+							<input type="text" name="phone" value="" placeholder="номер телефона">
+						</label>
+						<label><span>Пароль</span>
+							<input type="text" name="password" value="" placeholder="пароль">
+						</label>
+						<label><span>Повторите пароль</span>
+							<input type="text" name="repitpassword" value="" placeholder="повтор пароля">
+						</label>
+					</form>
 				</div>
 				<div class="box_line_3"> 	
 					<div class="parent">
 							{{>button/signin.btn}}
 					</div>
-				<span><a href="../auth/login.hbs">Войти</a></span>	
-				</div>
-					
+					<span><a href="../auth/login.hbs">Войти</a></span>	
 				</div>
 			</div>
 		</div>
