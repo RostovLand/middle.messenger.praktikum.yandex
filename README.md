@@ -13,7 +13,6 @@ npm run start
 
 //"start": "parcel build src/pages/index.hbs && node server.js",
 
-   
 Ссылка на сайт
 
 https://soft-brigadeiros-7481c8.netlify.app
