@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="profile.scss" />
+</head>
+<body>
+	<div class="page_basic_center">
+		<div class="container">
+			<div class="box_line_1"> 
+				<div class="avatar">
+					<a title="Загрузить новый аватар" href="newavatar.hbs">
+					<span>
+						<img class="img" src="/images/1.jpg" border="0" width="100" height="75">
+						<div class="circle"/></div>
+					</span></a>
+				</div>
+				<p>Профиль</p>
+			</div>
+			
+			<div class="box_line_2">
+				{{>persona/data.profile}}
+			</div>
+			<div class="box_line_3"> 	
+				<label><a href="edit.profile.hbs">Изменить данные</a></label>
+				<label><a href="../auth/newpassword.hbs">Изменить пароль</a></label>
+				<label><a href="/">Выйти</a></label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
